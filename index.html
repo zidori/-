@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>가입양식폼</title>
+  <meta name="description" content="가입양식폼">
+  <link rel="stylesheet" href="./css/nomalize.css">
+  <link rel="stylesheet" href="./css/default.css">
+  <link rel="stylesheet" href="./css/general.css">
+  <link rel="stylesheet" href="./css/style2.css">
+  <!--[if lt IE 9]>
+  <script src = "http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+</head>
+<body>
+  <div id="wrap">
+    <div class="title">
+      <h1>회원가입</h1>
+      <p class="prec"><em>*</em>표시는 필수 입력사항입니다.</p>
+    </div>
+    <form>
+      <table class="table_a">
+        <tr>
+          <td>
+            <em>*</em>사용자 아이디
+          </td>
+          <td>
+            <input type="text" class="middle" placeholder="8~12자까지">
+            <button class="gbtn transparent">중복확인</button>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <em>*</em>비밀번호
+          </td>
+          <td>
+            <input type="text" class="middle" placeholder="10~14자 / 문자+숫자+특수문자 조합">
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <em>*</em>한글성명
+          </td>
+          <td>
+            <input type="text" class="middle">
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <em>*</em>영문성명
+          </td>
+          <td>
+            <input type="text" class="middle">
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <em>*</em>주소
+          </td>
+          <td>
+            <input type="text" class="big">
+            <button class="gbtn transparent">검색</button>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            상세주소
+          </td>
+          <td>
+            <input type="text" class="big" placeholder="예)1동 1002호(00동,00아파트) *단독주택의 경우 건물번호 입력">
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <em>*</em>이메일
+          </td>
+          <td>
+            <input type="text"><i>@</i><input type="text">
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <em>*</em>전화번호
+          </td>
+          <td>
+            <input type="text" class="tiny"><i>-</i><input type="text" class="tiny"><i>-</i><input type="text" class="tiny">
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <em>*</em>휴대폰 번호
+          </td>
+          <td>
+            <input type="text" class="tiny"><i>-</i><input type="text" class="tiny"><i>-</i><input type="text" class="tiny"/>
+            <button class="gbtn transparent">본인확인</button>
+            <input type="checkbox" id="ck" name="ck">
+            <label for="ck"></label>
+            <div class="txt">확인 완료 여부</div>
+          </td>
+        </tr>
+      </table>
+      <div class="button_group">
+        <button class="gbtn normal gray">취소</button>
+        <button class="gbtn normal">회원가입</button>
+      </div>
+    </form>
+  </div>
+</body>
+</html>
